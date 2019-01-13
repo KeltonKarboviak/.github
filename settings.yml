@@ -6,7 +6,7 @@ repository:
   has_issues: true
   has_projects: true
   has_wiki: true
-  has_downloads: false
+  has_downloads: true
   default_branch: master
   allow_squash_merge: true
   allow_merge_commit: false
@@ -38,7 +38,7 @@ labels:
 #   - username:
 #     permission: pull
 
-# branches:
+branches: []
 #   - name: master
 #     protection:
 #       # Required. Require at least one approving review on a pull request, before merging. Set to null to disable.
